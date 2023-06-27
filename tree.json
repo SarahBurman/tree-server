@@ -1,0 +1,1524 @@
+[
+  {
+    "name": "ng-web-security-analytics",
+    "files": [
+      ".browserslistrc",
+      ".editorconfig",
+      ".gitignore",
+      ".npmrc",
+      ".versionconfig",
+      "README.md",
+      "angular.json",
+      "karma.conf.js",
+      "package.json",
+      "tree",
+      "tsconfig.app.json",
+      "tsconfig.json",
+      "tsconfig.spec.json",
+      "tslint.json",
+      "yarn.lock"
+    ],
+    "directories": [
+      [
+        {
+          "name": "src",
+          "files": [
+            "ag-grid-license.ts",
+            "favicon.ico",
+            "index.html",
+            "main.ts",
+            "manifest.json",
+            "polyfills.ts",
+            "sql",
+            "sql.template",
+            "styles.scss",
+            "template.html",
+            "test.ts"
+          ],
+          "directories": [
+            [
+              {
+                "name": "app",
+                "files": [
+                  "app.component.html",
+                  "app.component.scss",
+                  "app.component.spec.ts",
+                  "app.component.ts",
+                  "app.module.ts",
+                  "auto.ts",
+                  "ng-zorro-antd.module.ts"
+                ],
+                "directories": [
+                  [
+                    {
+                      "name": "components",
+                      "files": ["components.ts"],
+                      "directories": [
+                        [
+                          {
+                            "name": "add-dimension-modal",
+                            "files": [
+                              "add-dimension-modal.component.html",
+                              "add-dimension-modal.component.scss",
+                              "add-dimension-modal.component.spec.ts",
+                              "add-dimension-modal.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "add-filter-modal",
+                            "files": [
+                              "add-filter-modal.component.html",
+                              "add-filter-modal.component.scss",
+                              "add-filter-modal.component.spec.ts",
+                              "add-filter-modal.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "add-operators-modal",
+                            "files": [
+                              "add-operators-modal.component.html",
+                              "add-operators-modal.component.scss",
+                              "add-operators-modal.component.spec.ts",
+                              "add-operators-modal.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "add-widget-modal",
+                            "files": [
+                              "add-widget-modal.component.html",
+                              "add-widget-modal.component.scss",
+                              "add-widget-modal.component.spec.ts",
+                              "add-widget-modal.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "app-layout",
+                            "files": [
+                              "app-layout.component.html",
+                              "app-layout.component.scss",
+                              "app-layout.component.spec.ts",
+                              "app-layout.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "banner",
+                            "files": [
+                              "banner.component.html",
+                              "banner.component.scss",
+                              "banner.component.spec.ts",
+                              "banner.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "case-sensitive-dropdown",
+                            "files": [
+                              "case-sensitive-dropdown.component.html",
+                              "case-sensitive-dropdown.component.scss",
+                              "case-sensitive-dropdown.component.spec.ts",
+                              "case-sensitive-dropdown.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "dashed-text",
+                            "files": [
+                              "dashed-text.component.html",
+                              "dashed-text.component.scss",
+                              "dashed-text.component.spec.ts",
+                              "dashed-text.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "dashed-textarea",
+                            "files": [
+                              "dashed-textarea.component.html",
+                              "dashed-textarea.component.scss",
+                              "dashed-textarea.component.spec.ts",
+                              "dashed-textarea.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "favorite",
+                            "files": [
+                              "favorite.component.html",
+                              "favorite.component.scss",
+                              "favorite.component.spec.ts",
+                              "favorite.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "filters",
+                            "files": [
+                              "filters.component.html",
+                              "filters.component.scss",
+                              "filters.component.spec.ts",
+                              "filters.component.ts"
+                            ],
+                            "directories": [
+                              [
+                                {
+                                  "name": "components",
+                                  "files": [],
+                                  "directories": [
+                                    [
+                                      {
+                                        "name": "filter",
+                                        "files": [
+                                          "filter.component.html",
+                                          "filter.component.scss",
+                                          "filter.component.spec.ts",
+                                          "filter.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "filter-operators-values",
+                                        "files": [
+                                          "filter-operators-values.component.html",
+                                          "filter-operators-values.component.scss",
+                                          "filter-operators-values.component.spec.ts",
+                                          "filter-operators-values.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "name": "filters-minimize-view",
+                            "files": [
+                              "filters-minimize-view.component.html",
+                              "filters-minimize-view.component.scss",
+                              "filters-minimize-view.component.spec.ts",
+                              "filters-minimize-view.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "filters-minimize-view-buttons",
+                            "files": [
+                              "filters-minimize-view-buttons.component.html",
+                              "filters-minimize-view-buttons.component.scss",
+                              "filters-minimize-view-buttons.component.spec.ts",
+                              "filters-minimize-view-buttons.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "gridster-wrapper",
+                            "files": [
+                              "gridster-wrapper.component.html",
+                              "gridster-wrapper.component.scss",
+                              "gridster-wrapper.component.spec.ts",
+                              "gridster-wrapper.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "icon",
+                            "files": [
+                              "icon.component.html",
+                              "icon.component.scss",
+                              "icon.component.spec.ts",
+                              "icon.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "icon-button",
+                            "files": [
+                              "icon-button.component.html",
+                              "icon-button.component.scss",
+                              "icon-button.component.spec.ts",
+                              "icon-button.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "large-switch",
+                            "files": [
+                              "large-switch.component.html",
+                              "large-switch.component.scss",
+                              "large-switch.component.spec.ts",
+                              "large-switch.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "list-icons",
+                            "files": [
+                              "list-icons.component.html",
+                              "list-icons.component.scss",
+                              "list-icons.component.spec.ts",
+                              "list-icons.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "manage-saved-view",
+                            "files": [
+                              "manage-saved-view.component.html",
+                              "manage-saved-view.component.scss",
+                              "manage-saved-view.component.spec.ts",
+                              "manage-saved-view.component.ts"
+                            ],
+                            "directories": [
+                              [
+                                {
+                                  "name": "components",
+                                  "files": [],
+                                  "directories": [
+                                    [
+                                      {
+                                        "name": "manage-saved-view-actions-renderer",
+                                        "files": [
+                                          "manage-saved-view-actions-renderer.component.html",
+                                          "manage-saved-view-actions-renderer.component.scss",
+                                          "manage-saved-view-actions-renderer.component.spec.ts",
+                                          "manage-saved-view-actions-renderer.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "manage-saved-view-info-renderer",
+                                        "files": [
+                                          "manage-saved-view-info-renderer.component.html",
+                                          "manage-saved-view-info-renderer.component.scss",
+                                          "manage-saved-view-info-renderer.component.spec.ts",
+                                          "manage-saved-view-info-renderer.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "name": "menu",
+                            "files": [
+                              "menu.component.html",
+                              "menu.component.scss",
+                              "menu.component.spec.ts",
+                              "menu.component.ts"
+                            ],
+                            "directories": [
+                              [
+                                {
+                                  "name": "components",
+                                  "files": [],
+                                  "directories": [
+                                    [
+                                      {
+                                        "name": "settings",
+                                        "files": [
+                                          "settings.component.html",
+                                          "settings.component.scss",
+                                          "settings.component.spec.ts",
+                                          "settings.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "name": "mode-indicator",
+                            "files": [
+                              "mode-indicator.component.html",
+                              "mode-indicator.component.scss",
+                              "mode-indicator.component.spec.ts",
+                              "mode-indicator.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "notifications-list",
+                            "files": [
+                              "notifications-list.component.html",
+                              "notifications-list.component.scss",
+                              "notifications-list.component.spec.ts",
+                              "notifications-list.component.ts"
+                            ],
+                            "directories": [
+                              [
+                                {
+                                  "name": "components",
+                                  "files": [],
+                                  "directories": [
+                                    [
+                                      {
+                                        "name": "notification",
+                                        "files": [
+                                          "notification.component.html",
+                                          "notification.component.scss",
+                                          "notification.component.spec.ts",
+                                          "notification.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "notification-config",
+                                        "files": [
+                                          "notification-config.component.html",
+                                          "notification-config.component.scss",
+                                          "notification-config.component.spec.ts",
+                                          "notification-config.component.ts"
+                                        ],
+                                        "directories": [
+                                          [
+                                            {
+                                              "name": "components",
+                                              "files": [],
+                                              "directories": [
+                                                [
+                                                  {
+                                                    "name": "notification-config-filters",
+                                                    "files": [
+                                                      "notification-config-filters.component.html",
+                                                      "notification-config-filters.component.scss",
+                                                      "notification-config-filters.component.spec.ts",
+                                                      "notification-config-filters.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "notification-config-settings",
+                                                    "files": [
+                                                      "notification-config-settings.component.html",
+                                                      "notification-config-settings.component.scss",
+                                                      "notification-config-settings.component.spec.ts",
+                                                      "notification-config-settings.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "notification-config-threshold",
+                                                    "files": [
+                                                      "notification-config-threshold.component.html",
+                                                      "notification-config-threshold.component.scss",
+                                                      "notification-config-threshold.component.spec.ts",
+                                                      "notification-config-threshold.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "notification-details",
+                                        "files": [
+                                          "notification-details.component.html",
+                                          "notification-details.component.scss",
+                                          "notification-details.component.spec.ts",
+                                          "notification-details.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "notification-legend",
+                                        "files": [
+                                          "notification-legend.component.html",
+                                          "notification-legend.component.scss",
+                                          "notification-legend.component.spec.ts",
+                                          "notification-legend.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "notification-quota",
+                                        "files": [
+                                          "notification-quota.component.html",
+                                          "notification-quota.component.scss",
+                                          "notification-quota.component.spec.ts",
+                                          "notification-quota.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "search",
+                                        "files": [
+                                          "search.component.html",
+                                          "search.component.scss",
+                                          "search.component.spec.ts",
+                                          "search.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "name": "operator-icon",
+                            "files": [
+                              "operator-icon.component.html",
+                              "operator-icon.component.scss",
+                              "operator-icon.component.spec.ts",
+                              "operator-icon.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "operators-dropdown",
+                            "files": [
+                              "operators-dropdown.component.html",
+                              "operators-dropdown.component.scss",
+                              "operators-dropdown.component.spec.ts",
+                              "operators-dropdown.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "priority",
+                            "files": [
+                              "priority.component.html",
+                              "priority.component.scss",
+                              "priority.component.spec.ts",
+                              "priority.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "screen-sizer",
+                            "files": [
+                              "screen-sizer.component.html",
+                              "screen-sizer.component.scss",
+                              "screen-sizer.component.spec.ts",
+                              "screen-sizer.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "spinner",
+                            "files": [
+                              "spinner.component.html",
+                              "spinner.component.scss",
+                              "spinner.component.spec.ts",
+                              "spinner.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "starts-when",
+                            "files": [
+                              "starts-when.component.html",
+                              "starts-when.component.scss",
+                              "starts-when.component.spec.ts",
+                              "starts-when.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "tag-input",
+                            "files": [
+                              "tag-input.component.html",
+                              "tag-input.component.scss",
+                              "tag-input.component.spec.ts",
+                              "tag-input.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "tbd",
+                            "files": [
+                              "tbd.component.html",
+                              "tbd.component.scss",
+                              "tbd.component.spec.ts",
+                              "tbd.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "toast",
+                            "files": [
+                              "toast.component.html",
+                              "toast.component.scss",
+                              "toast.component.spec.ts",
+                              "toast.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "view-change-indicator",
+                            "files": [
+                              "view-change-indicator.component.html",
+                              "view-change-indicator.component.scss",
+                              "view-change-indicator.component.spec.ts",
+                              "view-change-indicator.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "view-selector",
+                            "files": [
+                              "view-selector.component.html",
+                              "view-selector.component.scss",
+                              "view-selector.component.spec.ts",
+                              "view-selector.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "widget",
+                            "files": [
+                              "widget.component.html",
+                              "widget.component.scss",
+                              "widget.component.spec.ts",
+                              "widget.component.ts"
+                            ],
+                            "directories": [
+                              [
+                                {
+                                  "name": "components",
+                                  "files": [],
+                                  "directories": [
+                                    [
+                                      {
+                                        "name": "additional-group-by-modal",
+                                        "files": [
+                                          "additional-group-by-modal.component.html",
+                                          "additional-group-by-modal.component.scss",
+                                          "additional-group-by-modal.component.spec.ts",
+                                          "additional-group-by-modal.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "chart",
+                                        "files": [
+                                          "chart.component.html",
+                                          "chart.component.scss",
+                                          "chart.component.spec.ts",
+                                          "chart.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "dimensions-selector",
+                                        "files": [
+                                          "dimensions-selector.component.html",
+                                          "dimensions-selector.component.scss",
+                                          "dimensions-selector.component.spec.ts",
+                                          "dimensions-selector.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "sample",
+                                        "files": [
+                                          "sample.component.html",
+                                          "sample.component.scss",
+                                          "sample.component.spec.ts",
+                                          "sample.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "sample-client-info",
+                                        "files": [
+                                          "sample-client-info.component.html",
+                                          "sample-client-info.component.scss",
+                                          "sample-client-info.component.spec.ts",
+                                          "sample-client-info.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "sample-export",
+                                        "files": [
+                                          "sample-export.component.html",
+                                          "sample-export.component.scss",
+                                          "sample-export.component.spec.ts",
+                                          "sample-export.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "sample-headers",
+                                        "files": [
+                                          "sample-headers.component.html",
+                                          "sample-headers.component.scss",
+                                          "sample-headers.component.spec.ts",
+                                          "sample-headers.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "sample-rules",
+                                        "files": [
+                                          "sample-rules.component.html",
+                                          "sample-rules.component.scss",
+                                          "sample-rules.component.spec.ts",
+                                          "sample-rules.component.ts"
+                                        ],
+                                        "directories": [
+                                          [
+                                            {
+                                              "name": "components",
+                                              "files": [],
+                                              "directories": [
+                                                [
+                                                  {
+                                                    "name": "action-indicator",
+                                                    "files": [
+                                                      "action-indicator.component.html",
+                                                      "action-indicator.component.scss",
+                                                      "action-indicator.component.spec.ts",
+                                                      "action-indicator.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "bot",
+                                                    "files": [
+                                                      "bot.component.html",
+                                                      "bot.component.scss",
+                                                      "bot.component.spec.ts",
+                                                      "bot.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "custom",
+                                                    "files": [
+                                                      "custom.component.html",
+                                                      "custom.component.scss",
+                                                      "custom.component.spec.ts",
+                                                      "custom.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "dos",
+                                                    "files": [
+                                                      "dos.component.html",
+                                                      "dos.component.scss",
+                                                      "dos.component.spec.ts",
+                                                      "dos.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "malware",
+                                                    "files": [
+                                                      "malware.component.html",
+                                                      "malware.component.scss",
+                                                      "malware.component.spec.ts",
+                                                      "malware.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "network-list",
+                                                    "files": [
+                                                      "network-list.component.html",
+                                                      "network-list.component.scss",
+                                                      "network-list.component.spec.ts",
+                                                      "network-list.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "reputation",
+                                                    "files": [
+                                                      "reputation.component.html",
+                                                      "reputation.component.scss",
+                                                      "reputation.component.spec.ts",
+                                                      "reputation.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "unclassified",
+                                                    "files": [
+                                                      "unclassified.component.html",
+                                                      "unclassified.component.scss",
+                                                      "unclassified.component.spec.ts",
+                                                      "unclassified.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "user-risk",
+                                                    "files": [
+                                                      "user-risk.component.html",
+                                                      "user-risk.component.scss",
+                                                      "user-risk.component.spec.ts",
+                                                      "user-risk.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "waf",
+                                                    "files": [
+                                                      "waf.component.html",
+                                                      "waf.component.scss",
+                                                      "waf.component.spec.ts",
+                                                      "waf.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "sample-title",
+                                        "files": [
+                                          "sample-title.component.html",
+                                          "sample-title.component.scss",
+                                          "sample-title.component.spec.ts",
+                                          "sample-title.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "table",
+                                        "files": [
+                                          "table.component.html",
+                                          "table.component.scss",
+                                          "table.component.spec.ts",
+                                          "table.component.ts"
+                                        ],
+                                        "directories": [
+                                          [
+                                            {
+                                              "name": "components",
+                                              "files": [],
+                                              "directories": [
+                                                [
+                                                  {
+                                                    "name": "chart-wrapper-renderer",
+                                                    "files": [
+                                                      "chart-wrapper-renderer.component.html",
+                                                      "chart-wrapper-renderer.component.scss",
+                                                      "chart-wrapper-renderer.component.spec.ts",
+                                                      "chart-wrapper-renderer.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "name": "popover-wrapper-renderer",
+                                                    "files": [
+                                                      "popover-wrapper-renderer.component.html",
+                                                      "popover-wrapper-renderer.component.scss",
+                                                      "popover-wrapper-renderer.component.spec.ts",
+                                                      "popover-wrapper-renderer.component.ts"
+                                                    ],
+                                                    "directories": []
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "name": "widget-options-modal",
+                                        "files": [
+                                          "widget-options-modal.component.html",
+                                          "widget-options-modal.component.scss",
+                                          "widget-options-modal.component.spec.ts",
+                                          "widget-options-modal.component.ts"
+                                        ],
+                                        "directories": []
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "name": "widget-wrapper",
+                            "files": [
+                              "widget-wrapper.component.html",
+                              "widget-wrapper.component.scss",
+                              "widget-wrapper.component.spec.ts",
+                              "widget-wrapper.component.ts"
+                            ],
+                            "directories": []
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "name": "constants",
+                      "files": [
+                        "ag-grid.ts",
+                        "consts.ts",
+                        "countries.ts",
+                        "dimensions-menu.ts",
+                        "dimensions.ts",
+                        "graph-colors.ts",
+                        "groupBy.ts",
+                        "heavy-operators.ts",
+                        "notifications-options.ts",
+                        "sample-data.ts",
+                        "settings.ts",
+                        "supported-by-alerts.ts",
+                        "table-headers.ts",
+                        "unique-count.ts"
+                      ],
+                      "directories": [
+                        [
+                          {
+                            "name": "filters",
+                            "files": [
+                              "allowd-filters.ts",
+                              "default-value-mapping.ts",
+                              "filters-menu.ts",
+                              "filters.ts",
+                              "operators.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "ipr",
+                            "files": [
+                              "ipr-indicator.ts",
+                              "ipr-risk.ts",
+                              "ipr-score-status.ts",
+                              "ipr-user-risk-level.ts"
+                            ],
+                            "directories": []
+                          }
+                        ]
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "name": "filters",
+                      "files": ["filters.ts", "search-item.pipe.spec.ts", "search-item.pipe.ts"],
+                      "directories": []
+                    }
+                  ],
+                  [
+                    {
+                      "name": "interceptor",
+                      "files": [
+                        "cache.interceptor.spec.ts",
+                        "cache.interceptor.ts",
+                        "create-saved-views.interceptor.spec.ts",
+                        "create-saved-views.interceptor.ts",
+                        "dimension-additionalgroupby.interceptor.spec.ts",
+                        "dimension-additionalgroupby.interceptor.ts",
+                        "dimension.interceptor.spec.ts",
+                        "dimension.interceptor.ts",
+                        "events.interceptor.spec.ts",
+                        "events.interceptor.ts",
+                        "get-saved-views.interceptor.spec.ts",
+                        "get-saved-views.interceptor.ts",
+                        "http-error.interceptor.spec.ts",
+                        "http-error.interceptor.ts",
+                        "http-xsrf.interceptor.spec.ts",
+                        "http-xsrf.interceptor.ts",
+                        "interceptors.ts",
+                        "mainchart-additionalgroupby.interceptor.spec.ts",
+                        "mainchart-additionalgroupby.interceptor.ts",
+                        "mainchart.interceptor.spec.ts",
+                        "mainchart.interceptor.ts",
+                        "metadata.interceptor.spec.ts",
+                        "metadata.interceptor.ts",
+                        "notifications.interceptor.spec.ts",
+                        "notifications.interceptor.ts",
+                        "requestid.interceptor.spec.ts",
+                        "requestid.interceptor.ts",
+                        "sampledata.interceptor.spec.ts",
+                        "sampledata.interceptor.ts",
+                        "source.interceptor.spec.ts",
+                        "source.interceptor.ts",
+                        "templates.interceptor.spec.ts",
+                        "templates.interceptor.ts",
+                        "utils.interceptor.ts",
+                        "valuemapping.interceptor.spec.ts",
+                        "valuemapping.interceptor.ts"
+                      ],
+                      "directories": []
+                    }
+                  ],
+                  [{ "name": "middleware", "files": ["middlewares.ts"], "directories": [] }],
+                  [
+                    {
+                      "name": "services",
+                      "files": [
+                        "utils.service.spec.ts",
+                        "utils.service.ts",
+                        "validation.service.spec.ts",
+                        "validation.service.ts"
+                      ],
+                      "directories": []
+                    }
+                  ],
+                  [
+                    {
+                      "name": "store",
+                      "files": ["app-state.model.ts", "effects.ts", "reducers.ts"],
+                      "directories": [
+                        [
+                          {
+                            "name": "config",
+                            "files": [
+                              "config-state.model.ts",
+                              "config.actions.ts",
+                              "config.effects.ts",
+                              "config.reducer.ts",
+                              "config.service.spec.ts",
+                              "config.service.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "filters",
+                            "files": [
+                              "filters-state.model.ts",
+                              "filters.actions.ts",
+                              "filters.effects.ts",
+                              "filters.reducer.ts",
+                              "filters.service.spec.ts",
+                              "filters.service.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "messages",
+                            "files": [
+                              "messages-state.model.ts",
+                              "messages.actions.ts",
+                              "messages.effects.ts",
+                              "messages.reducer.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "notifications",
+                            "files": [
+                              "notifications-state.model.ts",
+                              "notifications.actions.ts",
+                              "notifications.effects.ts",
+                              "notifications.reducer.ts",
+                              "notifications.service.spec.ts",
+                              "notifications.service.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "saved-views",
+                            "files": [
+                              "saved-views-state.model.ts",
+                              "saved-views.actions.ts",
+                              "saved-views.effects.ts",
+                              "saved-views.reducer.ts",
+                              "saved-views.service.spec.ts",
+                              "saved-views.service.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "settings",
+                            "files": [
+                              "settings-state.model.ts",
+                              "settings.actions.ts",
+                              "settings.effects.ts",
+                              "settings.reducer.ts",
+                              "settings.service.spec.ts",
+                              "settings.service.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "views",
+                            "files": [
+                              "views-state.model.ts",
+                              "views.actions.ts",
+                              "views.effects.ts",
+                              "views.reducer.ts"
+                            ],
+                            "directories": []
+                          }
+                        ],
+                        [
+                          {
+                            "name": "widget",
+                            "files": [
+                              "export.service.spec.ts",
+                              "export.service.ts",
+                              "widget-item.model.ts",
+                              "widget.actions.ts",
+                              "widget.effects.ts",
+                              "widget.reducer.ts",
+                              "widget.service.spec.ts",
+                              "widget.service.ts",
+                              "widgets-state.model.ts"
+                            ],
+                            "directories": []
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "name": "assets",
+                "files": [".gitkeep", "flag-icons.css"],
+                "directories": [
+                  [
+                    {
+                      "name": "flags",
+                      "files": [
+                        "ac.svg",
+                        "ad.svg",
+                        "ae.svg",
+                        "af.svg",
+                        "ag.svg",
+                        "ai.svg",
+                        "al.svg",
+                        "am.svg",
+                        "ao.svg",
+                        "aq.svg",
+                        "ar.svg",
+                        "as.svg",
+                        "at.svg",
+                        "au.svg",
+                        "aw.svg",
+                        "ax.svg",
+                        "az.svg",
+                        "ba.svg",
+                        "bb.svg",
+                        "bd.svg",
+                        "be.svg",
+                        "bf.svg",
+                        "bg.svg",
+                        "bh.svg",
+                        "bi.svg",
+                        "bj.svg",
+                        "bl.svg",
+                        "bm.svg",
+                        "bn.svg",
+                        "bo.svg",
+                        "bq.svg",
+                        "br.svg",
+                        "bs.svg",
+                        "bt.svg",
+                        "bv.svg",
+                        "bw.svg",
+                        "by.svg",
+                        "bz.svg",
+                        "ca.svg",
+                        "cc.svg",
+                        "cd.svg",
+                        "cefta.svg",
+                        "cf.svg",
+                        "cg.svg",
+                        "ch.svg",
+                        "ci.svg",
+                        "ck.svg",
+                        "cl.svg",
+                        "cm.svg",
+                        "cn.svg",
+                        "co.svg",
+                        "cp.svg",
+                        "cr.svg",
+                        "cu.svg",
+                        "cv.svg",
+                        "cw.svg",
+                        "cx.svg",
+                        "cy.svg",
+                        "cz.svg",
+                        "de.svg",
+                        "dg.svg",
+                        "dj.svg",
+                        "dk.svg",
+                        "dm.svg",
+                        "do.svg",
+                        "dz.svg",
+                        "ea.svg",
+                        "ec.svg",
+                        "ee.svg",
+                        "eg.svg",
+                        "eh.svg",
+                        "er.svg",
+                        "es-ct.svg",
+                        "es-ga.svg",
+                        "es.svg",
+                        "et.svg",
+                        "eu.svg",
+                        "fi.svg",
+                        "fj.svg",
+                        "fk.svg",
+                        "fm.svg",
+                        "fo.svg",
+                        "fr.svg",
+                        "ga.svg",
+                        "gb-eng.svg",
+                        "gb-nir.svg",
+                        "gb-sct.svg",
+                        "gb-wls.svg",
+                        "gb.svg",
+                        "gd.svg",
+                        "ge.svg",
+                        "gf.svg",
+                        "gg.svg",
+                        "gh.svg",
+                        "gi.svg",
+                        "gl.svg",
+                        "gm.svg",
+                        "gn.svg",
+                        "gp.svg",
+                        "gq.svg",
+                        "gr.svg",
+                        "gs.svg",
+                        "gt.svg",
+                        "gu.svg",
+                        "gw.svg",
+                        "gy.svg",
+                        "hk.svg",
+                        "hm.svg",
+                        "hn.svg",
+                        "hr.svg",
+                        "ht.svg",
+                        "hu.svg",
+                        "ic.svg",
+                        "id.svg",
+                        "ie.svg",
+                        "il.svg",
+                        "im.svg",
+                        "in.svg",
+                        "io.svg",
+                        "iq.svg",
+                        "ir.svg",
+                        "is.svg",
+                        "it.svg",
+                        "je.svg",
+                        "jm.svg",
+                        "jo.svg",
+                        "jp.svg",
+                        "ke.svg",
+                        "kg.svg",
+                        "kh.svg",
+                        "ki.svg",
+                        "km.svg",
+                        "kn.svg",
+                        "kp.svg",
+                        "kr.svg",
+                        "kw.svg",
+                        "ky.svg",
+                        "kz.svg",
+                        "la.svg",
+                        "lb.svg",
+                        "lc.svg",
+                        "li.svg",
+                        "lk.svg",
+                        "lr.svg",
+                        "ls.svg",
+                        "lt.svg",
+                        "lu.svg",
+                        "lv.svg",
+                        "ly.svg",
+                        "ma.svg",
+                        "mc.svg",
+                        "md.svg",
+                        "me.svg",
+                        "mf.svg",
+                        "mg.svg",
+                        "mh.svg",
+                        "mk.svg",
+                        "ml.svg",
+                        "mm.svg",
+                        "mn.svg",
+                        "mo.svg",
+                        "mp.svg",
+                        "mq.svg",
+                        "mr.svg",
+                        "ms.svg",
+                        "mt.svg",
+                        "mu.svg",
+                        "mv.svg",
+                        "mw.svg",
+                        "mx.svg",
+                        "my.svg",
+                        "mz.svg",
+                        "na.svg",
+                        "nc.svg",
+                        "ne.svg",
+                        "nf.svg",
+                        "ng.svg",
+                        "ni.svg",
+                        "nl.svg",
+                        "no.svg",
+                        "np.svg",
+                        "nr.svg",
+                        "nu.svg",
+                        "nz.svg",
+                        "om.svg",
+                        "pa.svg",
+                        "pe.svg",
+                        "pf.svg",
+                        "pg.svg",
+                        "ph.svg",
+                        "pk.svg",
+                        "pl.svg",
+                        "pm.svg",
+                        "pn.svg",
+                        "pr.svg",
+                        "ps.svg",
+                        "pt.svg",
+                        "pw.svg",
+                        "py.svg",
+                        "qa.svg",
+                        "re.svg",
+                        "ro.svg",
+                        "rs.svg",
+                        "ru.svg",
+                        "rw.svg",
+                        "sa.svg",
+                        "sb.svg",
+                        "sc.svg",
+                        "sd.svg",
+                        "se.svg",
+                        "sg.svg",
+                        "sh.svg",
+                        "si.svg",
+                        "sj.svg",
+                        "sk.svg",
+                        "sl.svg",
+                        "sm.svg",
+                        "sn.svg",
+                        "so.svg",
+                        "sr.svg",
+                        "ss.svg",
+                        "st.svg",
+                        "sv.svg",
+                        "sx.svg",
+                        "sy.svg",
+                        "sz.svg",
+                        "ta.svg",
+                        "tc.svg",
+                        "td.svg",
+                        "tf.svg",
+                        "tg.svg",
+                        "th.svg",
+                        "tj.svg",
+                        "tk.svg",
+                        "tl.svg",
+                        "tm.svg",
+                        "tn.svg",
+                        "to.svg",
+                        "tr.svg",
+                        "tt.svg",
+                        "tv.svg",
+                        "tw.svg",
+                        "tz.svg",
+                        "ua.svg",
+                        "ug.svg",
+                        "um.svg",
+                        "un.svg",
+                        "us.svg",
+                        "uy.svg",
+                        "uz.svg",
+                        "va.svg",
+                        "vc.svg",
+                        "ve.svg",
+                        "vg.svg",
+                        "vi.svg",
+                        "vn.svg",
+                        "vu.svg",
+                        "wf.svg",
+                        "ws.svg",
+                        "xk.svg",
+                        "xx.svg",
+                        "ye.svg",
+                        "yt.svg",
+                        "za.svg",
+                        "zm.svg",
+                        "zw.svg"
+                      ],
+                      "directories": []
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "name": "environments",
+                "files": ["environment.prod.ts", "environment.ts"],
+                "directories": []
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  }
+]
