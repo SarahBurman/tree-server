@@ -4,22 +4,21 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 
-const fs = require('fs');
+const treeData = require('./temptree');
 
 const port = 3000;
 
-let jsonData;
-let directory;
+let directories = [];
 
 
 app.get('/files', (req, res) => {
-  if(directory) {
+  if(directories) {
     const query = req.query.q;
     if (!query) {
-      res.json(directory);
+      res.json(directories);
     }
     else {
-      res.json(getMatchingDirectories(directory, query))
+      res.json(getMatchingDirectories(query))
     }
 
   }
@@ -31,17 +30,7 @@ app.listen(port, () => {
 });
 
 function readJSON() {
-  fs.readFile('./tree.json', 'utf8', (err, data) => {
-    if (err) {
-      console.error(err);
-      res.status(500).send('Error reading data');
-      return;
-    }
-
-    jsonData = JSON.parse(data);
-    directory = convertToDirectory(jsonData[0]);
-
-  });
+  treeData.forEach(directory => directories.push(convertToDirectory(directory)));
 }
 
 function convertToDirectory(data) {
@@ -60,14 +49,32 @@ function convertToDirectory(data) {
   return directory
 }
 
-function getMatchingDirectories(dir, prefix, matchingDirectories = []) {
-  if (dir.name.startsWith(prefix)) {
+function getMatchingDirectories(prefix) {
+  matchingDirectories = [];
+  directories.forEach(directory => {
+      getMatchingInnerDirectories(directory, prefix, matchingDirectories);
+    }
+  );
+  return matchingDirectories;
+}
+
+function getMatchingInnerDirectories(dir, prefix, matchingDirectories) {
+  if (dir.name.toLowerCase().startsWith(prefix.toLowerCase())) {
     matchingDirectories.push(dir);
   }
-
-  dir.directories.forEach(subDirectory => {
-    getMatchingDirectories(subDirectory, prefix, matchingDirectories);
-  });
-
-  return matchingDirectories;
+  if(dir.files.some(file => file.toLowerCase().startsWith(prefix.toLowerCase()))){
+    const matchedDir = {
+      name: dir.name,
+      files: newFiles,
+      directories: dir.directories.map(subDirectory => {
+        return getMatchingInnerDirectories(subDirectory, prefix, matchingDirectories);
+      })
+    };
+      matchingDirectories.push(matchedDir);
+  }
+  if (dir.directories && dir.directories.length > 0) {
+    dir.directories.forEach(subDirectory => {
+      getMatchingInnerDirectories(subDirectory, prefix, matchingDirectories);
+    });
+  }
 }
