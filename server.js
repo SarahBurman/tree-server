@@ -65,10 +65,8 @@ function getMatchingInnerDirectories(dir, prefix, matchingDirectories) {
   if(dir.files.some(file => file.toLowerCase().startsWith(prefix.toLowerCase()))){
     const matchedDir = {
       name: dir.name,
-      files: newFiles,
-      directories: dir.directories.map(subDirectory => {
-        return getMatchingInnerDirectories(subDirectory, prefix, matchingDirectories);
-      })
+      files: dir.files.filter(file=> file.toLowerCase().startsWith(prefix.toLowerCase())),
+      directories: []
     };
       matchingDirectories.push(matchedDir);
   }
